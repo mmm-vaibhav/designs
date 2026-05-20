@@ -1,0 +1,21 @@
+implement notify-me feature on the amazon site.
+
+there are 2 objects
+    A. Observable
+    B. Observer
+
+When the state is getting changed of Observable, it should update the observers.
+
+Register:
+-----------
+interface Observable {
+    List<Observer> observerList;
+    add(Observer ob)
+    remove(Observer obj);
+    notify();
+    setData();
+}
+
+interface Observer {
+    update();
+}
