@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.techniques_algo.kadanes_algo;
 
 public class Sliding_Window_Maximum_239_Leetcode {
     public static void main(String[] args) {

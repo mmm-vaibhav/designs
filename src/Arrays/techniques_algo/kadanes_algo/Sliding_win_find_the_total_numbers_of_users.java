@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.techniques_algo.kadanes_algo;
 
 // wap in java to find the total number of users in last 3 days.
 

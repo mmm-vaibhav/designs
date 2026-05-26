@@ -1,4 +1,4 @@
-package Arrays.kadanes_algo;
+package Arrays.techniques_algo.kadanes_algo;
 
 public class Maximum_sum_sub_array {
     public static void main(String[] args) {
