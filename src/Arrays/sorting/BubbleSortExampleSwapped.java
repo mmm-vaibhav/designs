@@ -1,0 +1,27 @@
+package Arrays.sorting;
+
+import java.util.Arrays;
+
+public class BubbleSortExampleSwapped {
+    public static void main(String[] args) {
+//        int[] arr = {60, 10, 50, 40, 20, 30};
+        int [] arr = {10, 40, 20, 30, 50, 60};
+        System.out.println("Before sorting" + Arrays.toString(arr));
+        for (int i = 1; i < arr.length; i++) {
+            boolean isSwapped = false;
+            System.out.println("pass " + i);
+            for (int j = 0; j < arr.length - i; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                    isSwapped = true;
+                }
+
+            }
+            System.out.println("after pass "+ i +"\nArray looks :" + Arrays.toString(arr));
+            if (!isSwapped) break;
+
+        }
+    }
+}
